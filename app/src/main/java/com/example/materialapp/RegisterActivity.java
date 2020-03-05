@@ -23,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private static final String TAG = "RegisterActivity";
 
-    @BindView(R.id.text_email)
+    @BindView(R.id.text_name)
     TextInputLayout temail;
     @BindView(R.id.text_password)
     TextInputLayout tpassword;
@@ -41,12 +41,12 @@ public class RegisterActivity extends AppCompatActivity {
         service = RetrofitBuilder.createService(ApiService.class);
     }
 
-    @OnClick(R.id.go_to_login)
+    @OnClick(R.id.go_to_dahsboard)
     void goToRegister(){
         startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
     }
 
-    @OnClick(R.id.btn_register)
+    @OnClick(R.id.btn_add)
     void register(){
 
         String email = temail.getEditText().getText().toString();

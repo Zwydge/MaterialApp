@@ -20,4 +20,8 @@ public interface ApiService {
     @FormUrlEncoded
     Call<AccessToken> register(@Field("email") String email, @Field("password") String password);
 
+    @POST("materials/add")
+    @FormUrlEncoded
+    Call<AccessToken> add(@Field("name") String name);
+
 }

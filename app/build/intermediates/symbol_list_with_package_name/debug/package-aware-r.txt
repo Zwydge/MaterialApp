@@ -1543,7 +1543,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id add_mat
 id alertTitle
 id all
 id always
@@ -1561,6 +1560,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_register
+id btn_register2
+id btn_register3
 id button
 id buttonPanel
 id cancel_action
@@ -1600,7 +1601,6 @@ id cut
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
-id delete
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1613,7 +1613,6 @@ id disableHome
 id display_always
 id dropdown_menu
 id edit_query
-id emprunter
 id end
 id end_padder
 id enterAlways
