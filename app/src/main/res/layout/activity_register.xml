@@ -53,19 +53,12 @@
             android:text="J'ai déjà un compte" />
 
         <Button
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_register"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="S'inscrire" />
-
-        <ProgressBar
-            android:id="@+id/loader"
-            android:visibility="invisible"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

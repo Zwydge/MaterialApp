@@ -46,7 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
         startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
     }
 
-    @OnClick(R.id.btn_add)
+    @OnClick(R.id.btn_register)
     void register(){
 
         String email = temail.getEditText().getText().toString();

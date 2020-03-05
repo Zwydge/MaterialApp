@@ -32,7 +32,7 @@ public class AddActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_add);
 
         ButterKnife.bind(this);
 
@@ -44,33 +44,38 @@ public class AddActivity extends AppCompatActivity {
         startActivity(new Intent(AddActivity.this, Dashboard.class));
     }
 
-    @OnClick(R.id.btn_add)
-    void add(){
-
+    @OnClick(R.id.add_mat)
+    void add() {
         String name = tname.getEditText().getText().toString();
 
-        call = service.add(name);
-        call.enqueue(new Callback<AccessToken>() {
-            @Override
-            public void onResponse(Call<AccessToken> call, Response<AccessToken> response) {
+        if (!name.equals("")) {
+            call = service.add(name);
+            call.enqueue(new Callback<AccessToken>() {
+                @Override
+                public void onResponse(Call<AccessToken> call, Response<AccessToken> response) {
 
-                Log.w(TAG, "onResponse: " + response);
+                    Log.w(TAG, "onResponse: " + response);
 
-                if (response.isSuccessful()) {
-                    Log.w(TAG, "onResponse: " + response.body());
-                    startActivity(new Intent(AddActivity.this, Dashboard.class));
-                    Toast.makeText(getApplicationContext(),"Matériel ajouté",Toast.LENGTH_SHORT).show();
-                    finish();
+                    if (response.isSuccessful()) {
+                        Log.w(TAG, "onResponse: " + response.body());
+                        startActivity(new Intent(AddActivity.this, Dashboard.class));
+                        Toast.makeText(getApplicationContext(), "Matériel ajouté", Toast.LENGTH_SHORT).show();
+                        finish();
 
-                } else {
-                    Toast.makeText(getApplicationContext(),"Connexion impossible",Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Connexion impossible", Toast.LENGTH_SHORT).show();
+                    }
                 }
-            }
-            @Override
-            public void onFailure(Call<AccessToken> call, Throwable t) {
-                Log.w(TAG, "onFailure: " + t.getMessage());
-            }
-        });
+
+                @Override
+                public void onFailure(Call<AccessToken> call, Throwable t) {
+                    Log.w(TAG, "onFailure: " + t.getMessage());
+                }
+            });
+        }
+        else{
+            Toast.makeText(getApplicationContext(), "Le nom ne peut pas être vide", Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override

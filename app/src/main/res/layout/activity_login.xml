@@ -53,19 +53,12 @@
             android:text="Je n'ai pas de compte" />
 
         <Button
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_login"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Se connecter" />
-
-        <ProgressBar
-            android:id="@+id/loader"
-            android:visibility="invisible"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

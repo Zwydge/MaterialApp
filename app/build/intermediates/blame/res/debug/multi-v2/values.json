@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kevin\\Desktop\\Wordlskills\\Material\\Android\\MaterialApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\kevin\\Desktop\\WorldSkills\\Material\\Android\\MaterialApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\1ebdab2cccca905a3cd28bb608703327\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
@@ -20,6 +20,23 @@
                         "endLines": "37,4488,5811,5900",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1893,298399,377070,382281"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kevin\\Desktop\\WorldSkills\\Material\\Android\\MaterialApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "240,241,242",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "12780,12826,12873",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "12821,12868,12919"
                     }
                 },
                 {
@@ -171,25 +188,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kevin\\Desktop\\Wordlskills\\Material\\Android\\MaterialApp\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "376"
-                    },
-                    "to": {
-                        "startLines": "942",
-                        "startColumns": "4",
-                        "startOffsets": "64985",
-                        "endLines": "947",
-                        "endColumns": "12",
-                        "endOffsets": "65299"
-                    }
-                },
-                {
                     "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\f5f514aefab3bab424b829f9c5a8fd3e\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -228,6 +226,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\kevin\\Desktop\\WorldSkills\\Material\\Android\\MaterialApp\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "942",
+                        "startColumns": "4",
+                        "startOffsets": "64985",
+                        "endLines": "947",
+                        "endColumns": "12",
+                        "endOffsets": "65299"
+                    }
+                },
+                {
                     "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\cff0d1b30776eaeafd152d3c76e2da6a\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -244,6 +261,23 @@
                         "endLines": "181,507,508,509,517,518,519,740,6603",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "9005,30963,31011,31067,31753,31829,31901,46025,419551"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kevin\\Desktop\\WorldSkills\\Material\\Android\\MaterialApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
+                    },
+                    "to": {
+                        "startLines": "827",
+                        "startColumns": "4",
+                        "startOffsets": "51199",
+                        "endColumns": "48",
+                        "endOffsets": "51243"
                     }
                 },
                 {
@@ -304,23 +338,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kevin\\Desktop\\Wordlskills\\Material\\Android\\MaterialApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "48",
-                        "endOffsets": "61"
-                    },
-                    "to": {
-                        "startLines": "827",
-                        "startColumns": "4",
-                        "startOffsets": "51199",
-                        "endColumns": "48",
-                        "endOffsets": "51243"
-                    }
-                },
-                {
                     "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\7d7fd0d2929b90b96150578fa61b2794\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -337,23 +354,6 @@
                         "endLines": "17,236,237,238,239,432,433,434,975,2776,2779,2782,5526",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "867,12587,12649,12711,12775,25957,26014,26068,67164,184162,184288,184416,356143"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kevin\\Desktop\\Wordlskills\\Material\\Android\\MaterialApp\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "240,241,242",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "12780,12826,12873",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "12821,12868,12919"
                     }
                 },
                 {

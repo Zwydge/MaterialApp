@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         service = RetrofitBuilder.createService(ApiService.class);
     }
 
-    @OnClick(R.id.btn_add)
+    @OnClick(R.id.btn_login)
     void login() {
 
         String email = temail.getEditText().getText().toString();

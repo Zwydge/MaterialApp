@@ -14,9 +14,9 @@ import java.lang.Override;
 public class RegisterActivity_ViewBinding implements Unbinder {
   private RegisterActivity target;
 
-  private View view7f080098;
+  private View view7f08009b;
 
-  private View view7f080050;
+  private View view7f080052;
 
   @UiThread
   public RegisterActivity_ViewBinding(RegisterActivity target) {
@@ -31,15 +31,15 @@ public class RegisterActivity_ViewBinding implements Unbinder {
     target.temail = Utils.findRequiredViewAsType(source, R.id.text_name, "field 'temail'", TextInputLayout.class);
     target.tpassword = Utils.findRequiredViewAsType(source, R.id.text_password, "field 'tpassword'", TextInputLayout.class);
     view = Utils.findRequiredView(source, R.id.go_to_dahsboard, "method 'goToRegister'");
-    view7f080098 = view;
+    view7f08009b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.goToRegister();
       }
     });
-    view = Utils.findRequiredView(source, R.id.btn_add, "method 'register'");
-    view7f080050 = view;
+    view = Utils.findRequiredView(source, R.id.btn_register, "method 'register'");
+    view7f080052 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -58,9 +58,9 @@ public class RegisterActivity_ViewBinding implements Unbinder {
     target.temail = null;
     target.tpassword = null;
 
-    view7f080098.setOnClickListener(null);
-    view7f080098 = null;
-    view7f080050.setOnClickListener(null);
-    view7f080050 = null;
+    view7f08009b.setOnClickListener(null);
+    view7f08009b = null;
+    view7f080052.setOnClickListener(null);
+    view7f080052 = null;
   }
 }
