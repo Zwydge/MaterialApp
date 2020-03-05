@@ -15,7 +15,6 @@ import com.google.android.material.textfield.TextInputLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -69,16 +68,11 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Connexion impossible",Toast.LENGTH_SHORT).show();
                 }
             }
-
             @Override
             public void onFailure(Call<AccessToken> call, Throwable t) {
                 Log.w(TAG, "onFailure: " + t.getMessage());
             }
         });
-    }
-
-    private void handleErrors(ResponseBody response){
-
     }
 
     @Override

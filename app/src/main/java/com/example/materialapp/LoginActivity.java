@@ -5,24 +5,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.util.Patterns;
 import android.widget.Toast;
 
-import com.basgeekball.awesomevalidation.AwesomeValidation;
-import com.basgeekball.awesomevalidation.ValidationStyle;
-import com.basgeekball.awesomevalidation.utility.RegexTemplate;
 import com.example.materialapp.network.ApiService;
 import com.example.materialapp.network.RetrofitBuilder;
 import com.facebook.AccessToken;
 import com.google.android.material.textfield.TextInputLayout;
 
-import java.util.List;
-import java.util.Map;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.internal.Utils;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -38,7 +30,6 @@ public class LoginActivity extends AppCompatActivity {
     TextInputLayout tpassword;
 
     ApiService service;
-    AwesomeValidation validator;
     Call<AccessToken> call;
 
     @Override
@@ -68,28 +59,21 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(new Intent(LoginActivity.this, Dashboard.class));
                     finish();
                 } else {
-                    if (response.code() == 422) {
-                        Toast.makeText(getApplicationContext(),"Connexion impossible",Toast.LENGTH_SHORT).show();
+                    if (response.code() == 401) {
+                        Toast.makeText(getApplicationContext(),"Connexion refusée",Toast.LENGTH_SHORT).show();
                     }
                 }
-
             }
-
             @Override
             public void onFailure(Call<AccessToken> call, Throwable t) {
                 Log.w(TAG, "onFailure: " + t.getMessage());
             }
         });
-
     }
 
     @OnClick(R.id.go_to_login)
     void goToRegister(){
         startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
-    }
-
-    private void handleErrors(ResponseBody response) {
-
     }
 
     @Override

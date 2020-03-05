@@ -12,23 +12,38 @@
         android:layout_gravity="center_vertical"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/add_mat"
-            android:layout_width="match_parent"
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ajouter du matériel" />
+            android:layout_gravity="center_horizontal"
+            android:text="Dashboard" />
 
         <Button
-            android:id="@+id/emprunter"
+            android:id="@+id/btn_register"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:text="Ajouter un produit" />
+
+        <Button
+            android:id="@+id/btn_register2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Supprimer du matériel" />
+
+        <Button
+            android:id="@+id/btn_register3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:text="Emprunter du matériel" />
 
-        <Button
-            android:id="@+id/delete"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Supprimer du matériel" />
     </LinearLayout>
 
 
