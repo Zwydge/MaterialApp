@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.materialapp.entities.Global;
+import com.example.materialapp.entities.Users;
+import com.example.materialapp.entities.UsersResponse;
 import com.example.materialapp.network.ApiService;
 import com.example.materialapp.network.RetrofitBuilder;
 import com.facebook.AccessToken;
@@ -23,13 +26,15 @@ public class RegisterActivity extends AppCompatActivity {
 
     private static final String TAG = "RegisterActivity";
 
+    Users current_user = new Users(-1,"none", "none");
+
     @BindView(R.id.text_name)
     TextInputLayout temail;
     @BindView(R.id.text_password)
     TextInputLayout tpassword;
 
     ApiService service;
-    Call<AccessToken> call;
+    Call<UsersResponse> call;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,23 +58,27 @@ public class RegisterActivity extends AppCompatActivity {
         String password = tpassword.getEditText().getText().toString();
 
         call = service.register(email, password);
-        call.enqueue(new Callback<AccessToken>() {
+        call.enqueue(new Callback<UsersResponse>() {
             @Override
-            public void onResponse(Call<AccessToken> call, Response<AccessToken> response) {
+            public void onResponse(Call<UsersResponse> call, Response<UsersResponse> response) {
 
                 Log.w(TAG, "onResponse: " + response);
 
                 if (response.isSuccessful()) {
-                    Log.w(TAG, "onResponse: " + response.body());
+                    for (Users e : response.body().getData()) {
+                        current_user.setId(e.getId());
+                    }
+                    Global.id = current_user.getId();
+                    Toast.makeText(getApplicationContext(),"Connexion réussie",Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(RegisterActivity.this, Dashboard.class));
                     finish();
-
+                    finish();
                 } else {
                     Toast.makeText(getApplicationContext(),"Connexion impossible",Toast.LENGTH_SHORT).show();
                 }
             }
             @Override
-            public void onFailure(Call<AccessToken> call, Throwable t) {
+            public void onFailure(Call<UsersResponse> call, Throwable t) {
                 Log.w(TAG, "onFailure: " + t.getMessage());
             }
         });

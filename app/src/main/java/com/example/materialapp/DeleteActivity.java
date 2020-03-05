@@ -15,6 +15,7 @@ import com.example.materialapp.entities.Materials;
 import com.example.materialapp.entities.MaterialsResponse;
 import com.example.materialapp.network.ApiService;
 import com.example.materialapp.network.RetrofitBuilder;
+import com.example.materialapp.entities.Global;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,18 +103,13 @@ public class DeleteActivity extends AppCompatActivity {
     @OnClick(R.id.delete_btn)
     void delete(){
         if(material.getId() != -1) {
-            Log.w(TAG, "question envoyée ");
             call = service.material_delete(material.getId());
             call.enqueue(new Callback<MaterialsResponse>() {
                 @Override
                 public void onResponse(Call<MaterialsResponse> call, Response<MaterialsResponse> response) {
-                    Log.w(TAG, "Réponse reçue askquestion: " + response);
-
                     if (response.isSuccessful()) {
-                        Log.w(TAG, "SUCCESS");
                         Toast.makeText(getApplicationContext(), "Matériel supprimé", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(DeleteActivity.this, Dashboard.class));
-
                     } else {
                         Toast.makeText(getApplicationContext(), "Impossible de supprimer ce matériel", Toast.LENGTH_SHORT).show();
                     }

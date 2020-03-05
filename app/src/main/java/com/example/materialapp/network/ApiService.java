@@ -2,6 +2,8 @@ package com.example.materialapp.network;
 import android.net.Uri;
 
 import com.example.materialapp.entities.MaterialsResponse;
+import com.example.materialapp.entities.Users;
+import com.example.materialapp.entities.UsersResponse;
 import com.facebook.AccessToken;
 
 import retrofit2.Call;
@@ -16,11 +18,11 @@ public interface ApiService {
 
     @POST("login")
     @FormUrlEncoded
-    Call<AccessToken> login(@Field("email") String email, @Field("password") String password);
+    Call<UsersResponse> login(@Field("email") String email, @Field("password") String password);
 
     @POST("register")
     @FormUrlEncoded
-    Call<AccessToken> register(@Field("email") String email, @Field("password") String password);
+    Call<UsersResponse> register(@Field("email") String email, @Field("password") String password);
 
     @POST("materials/add")
     @FormUrlEncoded
@@ -32,5 +34,9 @@ public interface ApiService {
     @POST("materials/delete")
     @FormUrlEncoded
     Call<MaterialsResponse> material_delete(@Field("id") int id);
+
+    @POST("takes/create")
+    @FormUrlEncoded
+    Call<AccessToken> takes_create(@Field("user_id") int user_id, @Field("material_id") int material_id);
 
 }

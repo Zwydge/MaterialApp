@@ -18,6 +18,7 @@ import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import com.example.materialapp.entities.Global;
 
 public class AddActivity extends AppCompatActivity {
 
