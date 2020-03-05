@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\af4fc1ec7a7cc88ef531925cb09596ed\\jetified-zxing-android-embedded-3.0.2\\res\\values-el\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,254,301,451",
+                        "endColumns": "58,46,149,114",
+                        "endOffsets": "249,296,446,561"
+                    },
+                    "to": {
+                        "startLines": "54,55,56,57",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5703,5762,5809,5959",
+                        "endColumns": "58,46,149,114",
+                        "endOffsets": "5757,5804,5954,6069"
+                    }
+                },
+                {
                     "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\f99f1737313912ca6abdd56f5e8e8cbd\\jetified-facebook-login-4.42.0\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",

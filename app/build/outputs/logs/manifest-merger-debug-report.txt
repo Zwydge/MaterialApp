@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:17:1-57:12
 MERGED from [com.basgeekball:awesome-validation:2.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\71a92ed475d6b82633dbd97cb037d5f2\jetified-awesome-validation-2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -19,6 +19,7 @@ MERGED from [androidx.browser:browser:1.0.0] C:\Users\kevin\.gradle\caches\trans
 MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8db870f2f8bfdc8d1c14b006d43f41e3\jetified-stetho-okhttp3-1.5.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d3a6066340f1895ac6bc25ee368af838\jetified-stetho-1.5.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4fe5754cd9cb16fdc8c0082b60de12c9\jetified-butterknife-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:17:1-57:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5c75bd7951d359a85775620c0170e49e\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\850a3c84da944cc872764513edcd7120\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -56,25 +57,29 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\kevin\.gradle\caches\transform
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0571339fd4cb74441b19561f6766bb98\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0f91f258f9d0abaa0e56c019df47bd85\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:7:5-33:19
 MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:26:5-55:19
 MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:26:5-55:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -93,6 +98,8 @@ MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\kevin\.gradle\ca
 MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8db870f2f8bfdc8d1c14b006d43f41e3\jetified-stetho-okhttp3-1.5.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d3a6066340f1895ac6bc25ee368af838\jetified-stetho-1.5.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d3a6066340f1895ac6bc25ee368af838\jetified-stetho-1.5.0\AndroidManifest.xml:11:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:47:5-55:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:47:5-55:19
 MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7b6f695ecee51b5751ebceff831dc64e\jetified-facebook-places-4.42.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-places:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7b6f695ecee51b5751ebceff831dc64e\jetified-facebook-places-4.42.0\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-applinks:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8a3e10fd1a057787d8801e58bfc67c37\jetified-facebook-applinks-4.42.0\AndroidManifest.xml:28:5-29:19
@@ -108,49 +115,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ke
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:9-40
 	android:networkSecurityConfig
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:9:9-69
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:11:9-69
+activity#com.example.materialapp.DeleteActivity
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:15:9-52
+	android:name
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:15:19-49
 activity#com.example.materialapp.AddActivity
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:13:9-58
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:9-49
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:13:19-46
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:19-46
 activity#com.example.materialapp.Dashboard
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:9-47
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:17:9-47
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:19-44
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:17:19-44
 activity#com.example.materialapp.RegisterActivity
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:15:9-54
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:18:9-54
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:15:19-51
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:18:19-51
 activity#com.example.materialapp.LoginActivity
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:19:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.example.materialapp.MainActivity
-ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:23:9-29:20
+ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:26:9-32:20
 	android:name
-		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:26:19-47
 uses-sdk
 INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kevin\Desktop\WorldSkills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
@@ -185,6 +196,8 @@ MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\kevin\.gradle\caches\tra
 MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d3a6066340f1895ac6bc25ee368af838\jetified-stetho-1.5.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4fe5754cd9cb16fdc8c0082b60de12c9\jetified-butterknife-10.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4fe5754cd9cb16fdc8c0082b60de12c9\jetified-butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5c75bd7951d359a85775620c0170e49e\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5c75bd7951d359a85775620c0170e49e\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -335,6 +348,60 @@ activity#com.facebook.CustomTabActivity
 ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
 	android:name
 		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:23:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:27:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:30:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:35:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:38:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:41:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:43:5-45:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:44:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:48:9-54:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:51:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:50:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:52:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:54:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:53:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\af4fc1ec7a7cc88ef531925cb09596ed\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:49:13-74
 provider#com.facebook.internal.FacebookInitProvider
 ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
 	android:authorities

@@ -26,22 +26,25 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="100dp"
+            android:drawableTop="@drawable/ic_add"
             android:text="Ajouter un produit" />
 
         <Button
-            android:id="@+id/btn_register2"
+            android:id="@+id/go_to_delete"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/ic_delete"
             android:text="Supprimer du matériel" />
 
         <Button
-            android:id="@+id/btn_register3"
+            android:id="@+id/btn_qr"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/ic_take"
             android:text="Emprunter du matériel" />
 
     </LinearLayout>

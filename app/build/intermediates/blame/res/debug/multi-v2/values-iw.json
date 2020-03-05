@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\kevin\\Desktop\\WorldSkills\\Material\\Android\\MaterialApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\af4fc1ec7a7cc88ef531925cb09596ed\\jetified-zxing-android-embedded-3.0.2\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,251,301,436",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "246,296,431,521"
+                    },
+                    "to": {
+                        "startLines": "54,55,56,57",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5391,5447,5497,5632",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "5442,5492,5627,5717"
+                    }
+                },
+                {
                     "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\1cd7eff88f5e86d0249af2958bf465f0\\core-1.1.0\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2",

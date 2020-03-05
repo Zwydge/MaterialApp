@@ -53,6 +53,23 @@
                         "endColumns": "156,124,138,110,82,86,79,90,88,115,108,87,87,101,120,81,88,195,93,101,114,104,166",
                         "endOffsets": "2995,3120,3259,3370,3453,3540,3620,3711,3800,3916,4025,4113,4201,4303,4424,4506,4595,4791,4885,4987,5102,5207,5374"
                     }
+                },
+                {
+                    "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-2\\files-2.1\\af4fc1ec7a7cc88ef531925cb09596ed\\jetified-zxing-android-embedded-3.0.2\\res\\values-pt\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,254,301,457",
+                        "endColumns": "58,46,155,106",
+                        "endOffsets": "249,296,452,559"
+                    },
+                    "to": {
+                        "startLines": "54,55,56,57",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5565,5624,5671,5827",
+                        "endColumns": "58,46,155,106",
+                        "endOffsets": "5619,5666,5822,5929"
+                    }
                 }
             ]
         }
