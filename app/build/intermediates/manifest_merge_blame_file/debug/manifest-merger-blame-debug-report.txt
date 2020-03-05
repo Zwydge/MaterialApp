@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.knowledger"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml
+10
+11    <!-- To store the heap dumps and leak analysis results. -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:23:5-80
+12-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:23:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:24:5-81
+13-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:24:22-78
+14
+15    <application
+15-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:5:5-19:19
+16        android:allowBackup="true"
+16-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:11:9-40
+25        <activity android:name="com.example.materialapp.MainActivity" >
+25-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:12:9-18:20
+25-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:12:19-47
+26            <intent-filter>
+26-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:13:13-17:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:17-69
+27-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:17-77
+29-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:27:9-30:45
+34            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+34-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:28:13-80
+35            android:enabled="false"
+35-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:29:13-36
+36            android:process=":leakcanary" />
+36-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:30:13-42
+37        <service
+37-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:31:9-33:39
+38            android:name="com.squareup.leakcanary.DisplayLeakService"
+38-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:32:13-70
+39            android:enabled="false" />
+39-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:33:13-36
+40
+41        <activity
+41-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:35:9-47:20
+42            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+42-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:36:13-80
+43            android:enabled="false"
+43-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:37:13-36
+44            android:icon="@drawable/leak_canary_icon"
+44-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:38:13-54
+45            android:label="@string/leak_canary_display_activity_label"
+45-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:39:13-71
+46            android:taskAffinity="com.squareup.leakcanary.com.example.knowledger"
+46-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:40:13-76
+47            android:theme="@style/leak_canary_LeakCanary.Base" >
+47-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:41:13-63
+48            <intent-filter>
+48-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:13:13-17:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:17-69
+49-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:14:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:17-77
+51-->C:\Users\kevin\Desktop\Wordlskills\Material\Android\MaterialApp\app\src\main\AndroidManifest.xml:16:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:48:9-54:68
+55            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+55-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:49:13-93
+56            android:enabled="false"
+56-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:50:13-36
+57            android:icon="@drawable/leak_canary_icon"
+57-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:51:13-54
+58            android:label="@string/leak_canary_storage_permission_activity_label"
+58-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:52:13-82
+59            android:taskAffinity="com.squareup.leakcanary.com.example.knowledger"
+59-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:53:13-76
+60            android:theme="@style/leak_canary_Theme.Transparent" />
+60-->[com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d2769838fb704a7187b1163e745e70a1\jetified-leakcanary-android-1.5.1\AndroidManifest.xml:54:13-65
+61        <activity
+61-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:29:9-32:66
+62            android:name="com.facebook.FacebookActivity"
+62-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:30:13-57
+63            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+63-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:31:13-96
+64            android:theme="@style/com_facebook_activity_theme" />
+64-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+65        <activity android:name="com.facebook.CustomTabMainActivity" />
+65-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+65-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+66        <activity android:name="com.facebook.CustomTabActivity" />
+66-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+66-->[com.facebook.android:facebook-common:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\391f7371928fe3ba6701bed0564e8d39\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
+67        <!--
+68         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+69         with the application context. This config is merged in with the host app's manifest,
+70         but there can only be one provider with the same authority activated at any given
+71         point; so if the end user has two or more different apps that use Facebook SDK, only the
+72         first one will be able to use the provider. To work around this problem, we use the
+73         following placeholder in the authority to identify each host application as if it was
+74         a completely different provider.
+75        -->
+76        <provider
+76-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+77            android:name="com.facebook.internal.FacebookInitProvider"
+77-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+78            android:authorities="com.example.knowledger.FacebookInitProvider"
+78-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+79            android:exported="false" />
+79-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+80
+81        <receiver
+81-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+82            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+82-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+83            android:exported="false" >
+83-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+84            <intent-filter>
+84-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+85                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+85-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+85-->[com.facebook.android:facebook-core:4.42.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4a81f69d609fe06f9462b612264d7ed9\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+86            </intent-filter>
+87        </receiver>
+88    </application>
+89
+90</manifest>
